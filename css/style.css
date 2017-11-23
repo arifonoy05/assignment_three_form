@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    height: 100vh;
+    font-family: 'Cormorant Garamond', serif;    
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+nav{
+    width: 100%;
+    height: 55px;
+    background: white;
+}
+.logo{
+    float: left;
+    width: 40%;
+}
+.logo img{
+    width: 40%;
+    margin-top: 5px;
+}
+.sign-in{
+	margin-top: 2px;
+    width: 60%;
+    float: left;
+}
+.sign-in form input{
+    float: left;
+	height: 40px;
+	border: 1px solid #ffffff;
+	padding: 0px 10px;
+	font-size: 13px;
+	display: inline-block;
+	margin: 5px;
+	background: rgb(235, 235, 235);
+}
+.sign-in form input[type="submit"]{
+    float: left;
+    height: 40px;
+    border: 1px solid #ffffff;
+    padding: 0px 20px;
+    font-size: 13px;
+    display: inline-block;
+    margin: 5px;
+    background: rgb(235, 235, 235);
+    cursor: pointer;
+}
+.sign-in form input[type="submit"]:hover{
+    float: left;
+    height: 40px;
+    border: 1px solid #007bb6;
+    padding: 0px 20px;
+    font-size: 13px;
+    display: inline-block;
+    margin: 5px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.forget{
+    display: inline-block
+}
+.forget a{
+	display: inline-block;
+	text-decoration: none;
+	color: #000000;
+	padding: 17px 17px;
+}
+.forget a:hover{
+    display: inline-block;
+    color: #000000;
+    padding: 17px 17px;
+    text-decoration: underline;
+}
+.form-main{
+    width: 400px;
+    background: #edf0f3;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.overlay{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #00000096;
+}
+.form-head{
+    background: white;
+    text-align: center;
+    border-bottom: 1px #c3c8cc solid;
+}
+.form-head h2{
+	padding: 5px;
+}
+.form-head p{
+	padding: 5px;
+}
+.form{
+    float: left;
+    background: #EDF0F3;
+    padding: 4px;
+}
+.join{
+    float: left;
+    margin-left: 4%;
+    margin-right: 5%;
+    width: 350px;
+    padding: 10px;
+}
+.join label{
+    padding: 3px;
+}
+.join input{
+    background: white;
+    width: 338px;
+    padding-left: 5px;
+    height: 20px;
+    border-bottom-style: 1px black solid;
+
+
+    float: left;
+	height: 40px;
+	border: 1px solid #dadada;
+	font-size: 13px;
+	display: inline-block;
+	background: rgb(255, 255, 255);
+
+}
+.condition p{
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+}
+input[class="submit"]{
+	float: left;
+	border: none;
+	text-align: center;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 350px;
+	margin: 5%;
+	padding: 10px;
+	background: #0073b1;
+	color: #fff;
+    cursor: pointer;
+}
+input[class="submit"]:hover{
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 350px;
+	margin: 5%;
+	padding: 10px;
+    background: rgb(255, 255, 255);
+    color: #007bb6;
+    cursor: pointer;
+}
